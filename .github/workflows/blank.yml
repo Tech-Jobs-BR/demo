@@ -22,7 +22,7 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
 
-      - uses: infraway/tweet-action@v1
+      - uses: infraway/tweet-action
         with:
           status: Tweeted from Github Actions
           api_key: ${{ secrets.TWITTER_API_KEY }}
