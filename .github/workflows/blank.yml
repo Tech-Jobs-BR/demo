@@ -24,7 +24,10 @@ jobs:
 
       - uses: infraway/tweet-action@v1.0.1
         with:
-          status: Tweeted from Github Actions
+          status: |
+            Tweeted from Github Actions
+            Tweeted from Github Actions
+            Tweeted from Github Actions            
           api_key: ${{ secrets.TWITTER_API_KEY }}
           api_key_secret: ${{ secrets.TWITTER_API_KEY_SECRET }}
           access_token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
