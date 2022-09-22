@@ -1,0 +1,55 @@
+name: Nova Vaga
+description: Nova Vaga
+title: "[Vaga]: "
+labels: ["aberta"]
+body:
+  - type: input
+    id: Titulo
+    attributes:
+      label: Titulo da Vaga
+      description: Titulo da Vaga em Aberto
+      placeholder: ex. Pessoa Programadora .Net Senior
+    validations:
+      required: true
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição da Vaga
+      description: Descrição da Vaga
+    validations:
+      required: true
+  - type: dropdown
+    id: tipovaga
+    attributes:
+      label: Tipo da Vaga
+      description: Vaga Presencial ou Remota
+      options:
+        - 100% presencial
+        - 100% remota
+        - Parcialmente Remota
+    validations:
+      required: true
+  - type: textarea
+    id: requisitos
+    attributes:
+      label: Requisitos da Vaga
+      description: Requisitos da Vaga
+    validations:
+      required: true
+  - type: input
+    id: empresa
+    attributes:
+      label: Nome da Empresa
+      description: Informe o nome da Empresa que está disponibilizando a vaga
+      placeholder: ex. Acme 
+    validations:
+      required: true      
+      
+  - type: input
+    id: contact
+    attributes:
+      label: Email para Contato
+      description: informe o e-mail para contato
+      placeholder: ex. email@example.com
+    validations:
+      required: true
