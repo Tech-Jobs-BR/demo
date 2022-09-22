@@ -80,3 +80,12 @@ body:
       description: Beneficios
     validations:
       required: true
+
+  - type: input
+    id: linkvaga
+    attributes:
+      label: Link para submissão da Vaga
+      description: link para submissão da Vaga em sites externos
+      placeholder: ex. https://www.linkedin.com/jobs/collections/recommended/?currentJobId=32131231231231
+    validations:
+      required: false
