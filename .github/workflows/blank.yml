@@ -27,5 +27,5 @@ jobs:
           status: Tweeted from Github Actions
           consumer-key: ${{ secrets.TWITTER_API_KEY }}
           consumer-secret: ${{ secrets.TWITTER_API_KEY_SECRET }}
-          access_token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-          access_token_secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+          access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
