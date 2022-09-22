@@ -53,3 +53,30 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: true
+
+  - type: input
+    id: salario
+    attributes:
+      label: Faixa Salarial
+      description: Informe a faixa salarial da Vaga
+      placeholder: ex. R$ 5.000,00 / mês
+    validations:
+      required: true   
+
+  - type: dropdown
+    id: metodocontratacao
+    attributes:
+      label: Método de Contratação
+      description: Método de Contratação
+      options:
+        - CLT
+        - PJ
+        - Cooperado
+
+  - type: textarea
+    id: beneficios
+    attributes:
+      label: Informe os Beneficios
+      description: Beneficios
+    validations:
+      required: true
